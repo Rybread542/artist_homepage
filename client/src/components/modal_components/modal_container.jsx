@@ -1,16 +1,18 @@
 
 
-export function modal_container(content) {
+export function modal_container(modalContent) {
 
     return (
         <div className="modal-overlay">
             <div className="modal-container">
                 <div className="modal-content-container">
-                    <div className="modal-content-title">
 
+                    <div className="modal-content-title">
+                        <h3>{modalContent.title}</h3>
                     </div>
+
                     <div className="modal-content">
-                        
+                        {modalContent.content}
                     </div>
                 </div>
             </div>

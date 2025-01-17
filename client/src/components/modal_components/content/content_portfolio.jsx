@@ -3,6 +3,8 @@
 
 export function content_portfolio() {
     return (
-        <div></div>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni modi blanditiis reiciendis deserunt tenetur molestiae tempore. Dolore tempore perferendis maxime obcaecati dolor. Nobis, vitae odio!</p>
+        </div>
     )
 }
