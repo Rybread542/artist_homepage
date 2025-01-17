@@ -1,6 +1,6 @@
 
 
-export function socials_bar() {
+export function Socials_Bar() {
 
 
     return (

@@ -1,6 +1,6 @@
 
 
-export function gallery_item(img) {
+export function Gallery_Item(img) {
 
 
     return (

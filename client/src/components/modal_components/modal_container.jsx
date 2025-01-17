@@ -1,6 +1,6 @@
 
 
-export function modal_container(modalContent) {
+export function Modal_Container( {modalContent} ) {
 
     return (
         <div className="modal-overlay">

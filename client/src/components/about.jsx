@@ -1,7 +1,7 @@
 
 
 
-export function about() {
+export function About() {
 
     return (
         <div className="about-container">

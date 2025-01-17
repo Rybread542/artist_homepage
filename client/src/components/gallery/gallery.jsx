@@ -1,7 +1,7 @@
 
 
 
-export function gallery() {
+export function Gallery() {
 
     return (
         <div className="gallery-container">
