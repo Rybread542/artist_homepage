@@ -27,9 +27,6 @@ function App() {
       <Top_Bar />
       <Controls_Bar showModal={showModal} />
       <About />
-      {/* Top graphical component */}
-      {/* Controls bar */}
-      {/* About */}
       {/* Gallery scroller */}
       {/* Social bar */}
     </>
