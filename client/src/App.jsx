@@ -17,16 +17,21 @@ function App() {
     
   }
 
+  const closeModal = () => {
+    setModalVisible(false)
+  }
+
   return (
     <>
       {modalVisible && (
-          <Modal_Container modalContent={modalContent} />
+          <Modal_Container modalContent={modalContent} closeModal={closeModal} />
         )
       }
 
       <Top_Bar />
       <Controls_Bar showModal={showModal} />
       <About />
+      <Gallery />
       {/* Gallery scroller */}
       {/* Social bar */}
     </>
