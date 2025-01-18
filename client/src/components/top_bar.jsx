@@ -1,8 +1,6 @@
 
 export function Top_Bar() {
 
-
-
     return (
 
     <div className="top-bar-container">

@@ -32,8 +32,7 @@ function App() {
       <Controls_Bar showModal={showModal} />
       <About />
       <Gallery />
-      {/* Gallery scroller */}
-      {/* Social bar */}
+      {/* <Socials_Bar /> */}
     </>
   )
 }
