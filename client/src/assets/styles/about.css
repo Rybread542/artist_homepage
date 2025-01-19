@@ -1,0 +1,5 @@
+.about-container {
+    padding: 2rem 8rem;
+    margin: 0 12rem 2rem 12rem;
+    background-color: var(--page-secondary);
+}

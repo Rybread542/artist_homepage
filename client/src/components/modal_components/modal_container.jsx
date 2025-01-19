@@ -1,4 +1,4 @@
-
+import '../../assets/styles/modal.css'
 
 export function Modal_Container( {modalContent, closeModal} ) {
 

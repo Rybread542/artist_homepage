@@ -1,5 +1,5 @@
 import { Gallery_Item } from "./gallery_item"
-
+import '../../assets/styles/gallery.css'
 
 export function Gallery() {
 
@@ -10,7 +10,10 @@ export function Gallery() {
 
     return (
         <div className="gallery-container">
-            {galleryImages.map((item, index) => <Gallery_Item key={index} img={item} />)}
+            <div className="gallery-track">
+                {galleryImages.map((item, index) => <Gallery_Item key={index} img={item} />)}
+                {galleryImages.map((item, index) => <Gallery_Item key={index} img={item} />)}
+            </div>
         </div>
     )
 

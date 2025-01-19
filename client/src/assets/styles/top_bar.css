@@ -1,0 +1,13 @@
+.top-bar-container {
+    height: 75px;
+    background: var(--page-secondary);
+    display: flex;
+    justify-content: center;
+}
+
+.top-bar-logo-container {
+    height: 125px;
+    width: 12rem;
+    background-color: var(--page-tertiary);
+    border-radius: 0 0 8px 8px;
+}

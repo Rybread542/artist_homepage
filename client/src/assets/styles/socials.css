@@ -1,0 +1,10 @@
+.socials-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.socials-item {
+    font-size: clamp(2rem, 4vw, 4rem);
+}

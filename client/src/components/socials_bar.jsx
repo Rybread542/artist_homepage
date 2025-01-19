@@ -1,4 +1,4 @@
-
+import '../assets/styles/socials.css'
 
 export function Socials_Bar() {
 

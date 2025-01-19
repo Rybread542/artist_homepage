@@ -1,0 +1,18 @@
+.controls-container {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 3rem 1.5rem 3rem 1.5rem;
+    gap: 1rem;
+}
+
+.controls-item-container {
+    text-align: center;
+    align-self: center;
+    align-content: center;
+    background-color: var(--page-primary);
+    height: 8rem;
+    padding: 1rem;
+    border-radius: 5px;
+}

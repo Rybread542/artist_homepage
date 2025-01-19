@@ -1,3 +1,4 @@
+import '../assets/styles/top_bar.css'
 
 export function Top_Bar() {
 

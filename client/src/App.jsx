@@ -14,7 +14,6 @@ function App() {
   const showModal = (newModalContent) => {
     setModalContent(newModalContent)
     setModalVisible(true)
-    
   }
 
   const closeModal = () => {
@@ -23,6 +22,7 @@ function App() {
 
   return (
     <>
+    <main>
       {modalVisible && (
           <Modal_Container modalContent={modalContent} closeModal={closeModal} />
         )
@@ -32,7 +32,8 @@ function App() {
       <Controls_Bar showModal={showModal} />
       <About />
       <Gallery />
-      {/* <Socials_Bar /> */}
+      <Socials_Bar />
+    </main>
     </>
   )
 }

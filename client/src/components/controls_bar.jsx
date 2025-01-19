@@ -3,6 +3,7 @@ import { Content_Process } from "./modal_components/content/content_process"
 import { Content_Prices } from "./modal_components/content/content_prices"
 import { Content_Terms_Conditions} from "./modal_components/content/content_terms-conditions"
 import { Content_Contact_Form } from "./modal_components/content/content_contact-form"
+import '../assets/styles/controls.css'
 
 export function Controls_Bar({showModal}) {
 
